@@ -1,0 +1,13 @@
+import React from 'react';
+import { Image } from 'react-native';
+
+const Logo = () => {
+  return (
+    <Image
+      source={require('../../../assets/images/logo.png')}
+      style={{ width: 200, height: 100 }}
+    />
+  );
+};
+
+export default Logo;
